@@ -3,7 +3,7 @@
 }
 
 body{
-  background-color: #f5f6fa;
+  background-color: #c65762;
 }
 
 .app{
@@ -23,13 +23,21 @@ body{
   margin-bottom: 20px;
 }
 
+.app__header h1{
+  color: #fff;
+}
+
+.app__dropdown{
+  background-color: #fff
+}
+
 .app__stats{
   display: flex;
   justify-content: space-between;
 }
 
-/* @media (max-width: 990px) {
+@media (max-width: 990px) {
   .app{
     flex-direction: column;
   }
-} */
+}
