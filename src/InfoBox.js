@@ -12,7 +12,7 @@ export default function InfoBox({title, active, isRed, cases, total, ...props}){
                     {title}
                 </Typography>
 
-                <h2 className='infoBox__cases'>{cases}</h2>
+                <h2 className={`infoBox__cases ${!isRed && 'infoBox__cases--green'}`}>{cases}</h2>
 
                 <Typography className='infoBox__total'>
                     {total} Total

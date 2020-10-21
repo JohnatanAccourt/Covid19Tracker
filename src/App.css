@@ -16,6 +16,27 @@ body{
   flex: 0.9;
 }
 
+.app__right{
+  display: flex;
+  flex-direction: column;
+}
+
+.app__right .MuiCardContent-root{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.app__graphTitle{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 80%;
+}
+
+.app__graph{
+  flex-grow: 1;
+}
+
 .app__header{
   display: flex;
   align-items: center;

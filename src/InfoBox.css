@@ -23,6 +23,10 @@
     border-color: red;
 }
 
+.infoBox__cases--green{
+    color: lightgreen !important;
+}
+
 /* !important é usado para forçar que o css use essa propriedade */
 /* e como a prioridade maior é do material ui então é necessário usa-lo */
 
